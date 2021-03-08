@@ -24,10 +24,10 @@ function calculateAll() {
   let newSubtotal = 0;
   document.querySelectorAll('.product').forEach(product => newSubtotal += updateSubtotal(product));
 
-  
+
 
   // ITERATION 3
-  //... your code goes here
+  document.querySelector('#total-value span').innerText = newSubtotal;
 }
 
 // ITERATION 4
